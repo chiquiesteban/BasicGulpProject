@@ -1,0 +1,5 @@
+/*STRETCH CONTAINER TO FIT CONTENT*/
+.stretch:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.stretch{display:inline-block}
+.stretch{display:block}
+* html .stretch{height:1px}
