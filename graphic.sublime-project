@@ -1,0 +1,21 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": ".",
+			"folder_exclude_patterns": [
+				"dest",
+				".tmp",
+				"gulp",
+				"node_modules"
+			],
+			"file_exclude_patterns": [
+				"middle.html",
+				"README.html",
+				"graphic.sublime-project",
+				"gulpfile.js"
+			]
+		}
+	]
+}

@@ -1,0 +1,465 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"tetx",
+				"text-align"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"circ",
+				"circlesize"
+			],
+			[
+				"colo",
+				"color1"
+			],
+			[
+				"val",
+				"valuesArray"
+			],
+			[
+				"fot",
+				"font-family"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"sans",
+				"sansSerif"
+			],
+			[
+				"data",
+				"dataSeries"
+			],
+			[
+				"name",
+				"namesNodes"
+			],
+			[
+				"sansS",
+				"sansSerifStrong"
+			],
+			[
+				"fon",
+				"font-family"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "css/_colors.scss",
+			"settings":
+			{
+				"buffer_size": 168,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "graphic.sublime-project",
+			"settings":
+			{
+				"buffer_size": 288,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 449,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/cestebanadmin/Desktop/BasicGulpProject/BasicGulpProject"
+	],
+	"file_history":
+	[
+		"/Users/cestebanadmin/Desktop/Rebuild/gulp/tasks/watch.js",
+		"/Users/cestebanadmin/Desktop/Rebuild/html/js.html",
+		"/Users/cestebanadmin/Desktop/Rebuild/html/middle.html",
+		"/Users/cestebanadmin/Desktop/MyProject-master/index.html",
+		"/Users/esteban/Desktop/MyProject/css/colors.scss",
+		"/Users/esteban/Desktop/MyProject/css/main.scss",
+		"/Users/esteban/Desktop/MyProject/html/css.html",
+		"/Users/esteban/Desktop/MyProject/css/styles.scss",
+		"/Users/esteban/Desktop/MyProject/index.html",
+		"/Users/esteban/Desktop/MyProject/html/html.html",
+		"/Users/esteban/Desktop/MyProject/css/type.scss",
+		"/Users/esteban/Desktop/MyProject/html/js.html",
+		"/Users/esteban/Desktop/Current Prrjects/SkiTwitter/graphics/LocatorMap/js/utils.js",
+		"/Users/esteban/Desktop/Current Prrjects/SkiTwitter/graphics/LocatorMap/html/html.html",
+		"/Users/esteban/Desktop/Current Prrjects/SkiTwitter/graphics/FeverLine/html/html.html",
+		"/Users/esteban/Desktop/Current Prrjects/SkiTwitter/graphics/FeverLine/js/utils.js",
+		"/Users/esteban/Desktop/Current Prrjects/SkiTwitter/graphics/FeverLine/PROD.jpt",
+		"/Users/esteban/Desktop/Current Prrjects/SkiTwitter/graphics/FeverLine/css/_layout.scss",
+		"/Users/esteban/Desktop/Current Prrjects/SkiTwitter/graphics/StatesMap/js/main.js",
+		"/Users/esteban/Desktop/Current Prrjects/SkiTwitter/graphics/StatesMap/js/utils.js",
+		"/Users/esteban/Desktop/Current Prrjects/SkiTwitter/graphics/FeverLine/js/main.js",
+		"/Users/esteban/Desktop/Current Prrjects/SkiTwitter/graphics/StackedBarchart/html/html.html",
+		"/Users/esteban/Desktop/Current Prrjects/SkiTwitter/graphics/StackedBarchart/js/utils.js",
+		"/Users/esteban/Desktop/Current Prrjects/SkiTwitter/graphics/StackedBarchart/css/_layout.scss",
+		"/Users/esteban/Desktop/Current Prrjects/SkiTwitter/graphics/HorizBarcharts/js/utils.js",
+		"/Users/esteban/Desktop/Current Prrjects/SkiTwitter/graphics/HorizBarcharts/js/main.js",
+		"/Users/esteban/Desktop/Current Prrjects/SkiTwitter/graphics/HorizBarcharts/html/html.html",
+		"/Users/esteban/Desktop/Current Prrjects/SkiTwitter/graphics/DotMap/js/utils.js",
+		"/Users/esteban/Desktop/Current Prrjects/SkiTwitter/graphics/DotMap/js/main.js",
+		"/Users/esteban/Desktop/mapa.svg",
+		"/Users/esteban/Desktop/Current Prrjects/SkiTwitter/graphics/NextNext/css/_layout.scss",
+		"/Users/esteban/Desktop/Current Prrjects/SkiTwitter/graphics/NextNext/js/utils.js",
+		"/Users/esteban/Desktop/Current Prrjects/SkiTwitter/graphics/NextNext/html/html.html",
+		"/Users/esteban/Desktop/Current Prrjects/SkiTwitter/graphics/StackedBarchart/js/main.js",
+		"/Users/esteban/Desktop/NewTemplates/graphics/StackedBarchart/js/utils.js",
+		"/Users/esteban/Desktop/NewTemplates/graphics/StackedBarchart/css/_layout.scss",
+		"/Users/esteban/Desktop/NewTemplates/graphics/StackedBarchart/html/html.html",
+		"/Users/esteban/Desktop/NewTemplates/graphics/StackedBarchart/js/main.js",
+		"/Users/esteban/Desktop/NewTemplates/graphics/SliderAnimation/js/main.js",
+		"/Users/esteban/Desktop/NewTemplates/graphics/HeatMap/js/main.js",
+		"/Users/esteban/Desktop/NewTemplates/graphics/StackedBarchart/html/js.html",
+		"/Users/esteban/Desktop/NewTemplates/graphics/NextNext/js/utils.js",
+		"/Users/esteban/Desktop/NewTemplates/graphics/FeverLine/js/utils.js",
+		"/Users/esteban/Desktop/NewTemplates/graphics/NextNext/css/_layout.scss",
+		"/Users/esteban/Desktop/NewTemplates/graphics/HeatMap/css/_layout.scss",
+		"/Users/esteban/Desktop/NewTemplates/graphics/HeatMap/js/utils.js",
+		"/Users/esteban/Desktop/NewTemplates/graphics/HeatMap/html/html.html",
+		"/Users/esteban/Desktop/NewTemplates/graphics/HeatMap/html/js.html",
+		"/Users/esteban/Desktop/NewTemplates/graphics/HorizBarcharts/css/_layout.scss",
+		"/Users/esteban/Desktop/NewTemplates/graphics/LocatorMap/js/main.js",
+		"/Users/esteban/Desktop/ReadyMadeJPTs/Locator/locator.jpt",
+		"/Users/esteban/Desktop/NewTemplates/graphics/LocatorMap/js/utils.js",
+		"/Users/esteban/Desktop/ReadyMadeJPTs/DotMap/DotMap.jpt",
+		"/Users/esteban/Desktop/NewTemplates/graphics/FeverLine/PROD.jpt",
+		"/Users/esteban/Desktop/ReadyMadeJPTs/FeverCharts/FeverCharts.jpt",
+		"/Users/esteban/Desktop/NewTemplates/graphics/DotMap/js/utils.js",
+		"/Users/esteban/Desktop/NewTemplates/graphics/HorizBarcharts/js/main.js",
+		"/Users/esteban/Desktop/NewTemplates/graphics/FeverLine/css/_layout.scss",
+		"/Users/esteban/Desktop/NewTemplates/graphics/HorizBarcharts/js/utils.js",
+		"/Users/esteban/Desktop/OPEC/globeproject.sublime-project",
+		"/Users/esteban/Desktop/NewTemplates/graphics/NextNext/html/html.html",
+		"/Users/esteban/Desktop/NewTemplates/graphics/NextNext/js/main.js",
+		"/Users/esteban/Desktop/NewTemplates/graphics/NextNext/html/js.html",
+		"/Users/esteban/Desktop/NewTemplates/graphics/SliderAnimation/html/js.html",
+		"/Users/esteban/Desktop/NewTemplates/graphics/SliderAnimation/js/utils.js",
+		"/Users/esteban/Desktop/NewTemplates/graphics/SliderAnimation/js/mobileui.js",
+		"/Users/esteban/Desktop/NewTemplates/graphics/SliderAnimation/css/_layout.scss",
+		"/Users/esteban/Desktop/NewTemplates/graphics/SliderAnimation/html/html.html",
+		"/Users/esteban/Desktop/NewTemplates/graphics/DotMap/css/_layout.scss",
+		"/Users/esteban/Desktop/ReadyMadeJPTs/HorizBarCharts/horizbarcharts.jpt",
+		"/Users/esteban/Desktop/NewTemplates/graphics/LocatorMap/css/_layout.scss",
+		"/Users/esteban/Desktop/NewTemplates/graphics/StatesMap/css/_layout.scss",
+		"/Users/esteban/Desktop/NewTemplates/graphics/FeverLine/js/main.js",
+		"/Users/esteban/Desktop/NewTemplates/graphics/DotMap/js/main.js",
+		"/Users/esteban/Desktop/NewTemplates/graphics/LocatorMap/html/js.html",
+		"/Users/esteban/Desktop/NewTemplates/graphics/LocatorMap/css/main.scss",
+		"/Users/esteban/Desktop/NewTemplates/graphics/LocatorMap/html/html.html",
+		"/Users/esteban/Desktop/NewTemplates/graphics/StatesMap/js/main.js",
+		"/Users/esteban/Desktop/NewTemplates/graphics/DotMap/html/html.html",
+		"/Users/esteban/Desktop/NewTemplates/graphics/HorizBarcharts/PROD.jpt",
+		"/Users/esteban/Desktop/NewTemplates/graphics/DotMap/html/js.html",
+		"/Users/esteban/Desktop/NewTemplates/graphics/StatesMap/js/utils.js",
+		"/Users/esteban/Desktop/NewTemplates/graphics/StatesMap/html/html.html",
+		"/Users/esteban/Desktop/NewTemplates/graphics/HorizBarcharts/html/html.html",
+		"/Users/esteban/Desktop/NewTemplates/graphics/StatesMap/html/js.html",
+		"/Users/esteban/Desktop/NewTemplates/graphics/FeverLine/html/html.html",
+		"/Users/esteban/Desktop/NewTemplates/graphics/FeverLine/html/js.html",
+		"/Users/esteban/Desktop/NewTemplates/graphics/HorizBarcharts/html/js.html",
+		"/Users/esteban/Desktop/NewTemplates/graphics/FeverLine/js/libs/exporting.js",
+		"/Users/esteban/Desktop/NewTemplates/graphics/FeverLine/js/libs/highcharts.js",
+		"/Users/esteban/Desktop/NewTemplates/graphics/FeverLine/article.html",
+		"/Users/esteban/Desktop/NewTemplates/graphics/FeverLine/template.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"module.js",
+			"bartou",
+			"font-family:'Benton Sans Bold',Helvetica,Arial,sans-serif;",
+			"month",
+			"#graphic-container ",
+			"Element_2",
+			"Element_1",
+			"\"Concept\":\"",
+			" 0:00\"",
+			"color",
+			" 0:00\"",
+			"<div class='mapname'>\" + datum.Name + \"</div",
+			"<div class='mapvalue'>\"+nWC(datum.Value)+\"</div>",
+			"#chart",
+			"3px",
+			"Modern",
+			"{'rgba",
+			"1)';",
+			" = ",
+			"var ",
+			"#chart",
+			"estirar",
+			",Text:\"",
+			"Date:",
+			", Image:",
+			"\",Text:",
+			"gf ",
+			"#gf",
+			"slider",
+			"#r",
+			"leaflet-popup",
+			"border-top:3px solid r",
+			"key",
+			"color",
+			"valuesArray",
+			"3px 3px",
+			"#ccc",
+			"WI",
+			"\"var_3\":12}",
+			",\"var_5\":",
+			"negati",
+			"tresh",
+			"',\n",
+			"color: '#999',",
+			"olor: ",
+			"	\n",
+			"to a clear shot",
+			"@@",
+			"\"var",
+			"subtit",
+			"hltitle"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "css/_colors.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 168,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								168,
+								168
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "graphic.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								225,
+								225
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 449,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "graphic.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 187.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

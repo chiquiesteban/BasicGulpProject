@@ -1,6 +1,11 @@
+
 #gf {
 	
-	color:#900;
+	color:$black;
+	font-family:$serif;
+	float:left;
+	width:1030px; 
+	margin: 1em auto;
 
 	@media only screen and (min-width: 600px) and (max-width: 900px) {
 

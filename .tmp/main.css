@@ -1,0 +1,28 @@
+/*STRETCH CONTAINER TO FIT CONTENT*/
+.stretch:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+.stretch {
+  display: inline-block; }
+
+.stretch {
+  display: block; }
+
+* html .stretch {
+  height: 1px; }
+
+/*background header*/
+/*frontpage headlines*/
+/*frontpage details*/
+/*frontpage footer bg*/
+/*underline yellow*/
+#gf {
+  color: #021122;
+  font-family: "Chronicle SSm 3r", Georgia, serif;
+  float: left;
+  width: 1030px;
+  margin: 1em auto; }
