@@ -14,7 +14,9 @@
 				"middle.html",
 				"README.html",
 				"graphic.sublime-project",
-				"gulpfile.js"
+				"gulpfile.js",
+				"_prerequisites.scss",
+				"prerequisites.js"
 			]
 		}
 	]

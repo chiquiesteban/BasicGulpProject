@@ -5,7 +5,7 @@
 		[
 			[
 				"font",
-				"font-family"
+				"font-size"
 			],
 			[
 				"tetx",
@@ -60,26 +60,42 @@
 	"buffers":
 	[
 		{
-			"file": "css/_colors.scss",
+			"file": "css/_type.scss",
 			"settings":
 			{
-				"buffer_size": 168,
+				"buffer_size": 142,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "graphic.sublime-project",
+			"file": "css/main.scss",
 			"settings":
 			{
-				"buffer_size": 288,
+				"buffer_size": 94,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "index.html",
+			"file": "css/_styles.scss",
 			"settings":
 			{
-				"buffer_size": 449,
+				"buffer_size": 11,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "html/html.html",
+			"settings":
+			{
+				"buffer_size": 341,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/_basics.scss",
+			"settings":
+			{
+				"buffer_size": 846,
 				"line_ending": "Unix"
 			}
 		}
@@ -115,6 +131,13 @@
 	],
 	"file_history":
 	[
+		"/Users/cestebanadmin/Desktop/BasicGulpProject/BasicGulpProject/css/_prerequisites.scss",
+		"/Users/cestebanadmin/Desktop/BasicGulpProject/BasicGulpProject/css/_basics.scss",
+		"/Users/cestebanadmin/Desktop/BasicGulpProject/BasicGulpProject/css/_colors.scss",
+		"/Users/cestebanadmin/Desktop/BasicGulpProject/BasicGulpProject/js/code.js",
+		"/Users/cestebanadmin/Desktop/BasicGulpProject/BasicGulpProject/graphic.sublime-project",
+		"/Users/cestebanadmin/Desktop/BasicGulpProject/BasicGulpProject/html/js.html",
+		"/Users/cestebanadmin/Desktop/BasicGulpProject/BasicGulpProject/css/main.scss",
 		"/Users/cestebanadmin/Desktop/Rebuild/gulp/tasks/watch.js",
 		"/Users/cestebanadmin/Desktop/Rebuild/html/js.html",
 		"/Users/cestebanadmin/Desktop/Rebuild/html/middle.html",
@@ -292,24 +315,80 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "css/_colors.scss",
+					"file": "css/_type.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 168,
+						"buffer_size": 142,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								168,
-								168
+								142,
+								142
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 94,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21,
+								21
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/_styles.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8,
+								8
 							]
 						],
 						"settings":
@@ -324,61 +403,59 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "graphic.sublime-project",
+					"buffer": 3,
+					"file": "html/html.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 288,
+						"buffer_size": 341,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								225,
-								225
+								258,
+								258
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "index.html",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 449,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/_basics.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 846,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								680,
+								680
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

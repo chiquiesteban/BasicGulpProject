@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'icongs';
+  src: url('icon-fonts/icongs_a5b67007ff5a80787e9ee410b47e8038.eot');
+  src: url('icon-fonts/icongs_a5b67007ff5a80787e9ee410b47e8038.eot?#iefix') format('embedded-opentype'), url('icon-fonts/icongs_a5b67007ff5a80787e9ee410b47e8038.woff') format('woff'), url('icon-fonts/icongs_a5b67007ff5a80787e9ee410b47e8038.ttf') format('truetype'), url('icon-fonts/icongs_a5b67007ff5a80787e9ee410b47e8038.svg') format('svg'); }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "icongs";
+    src: url("icon-fonts/icongs_a5b67007ff5a80787e9ee410b47e8038.svg#icongs") format("svg"); }
+ }
+
 /*
 	Copyright (C) 2011-2014 Hoefler & Co.
 	This software is the property of Hoefler & Co. (H&Co).
@@ -99,7 +110,8 @@
   font-size: 13px;
   float: left;
   width: 1030px;
-  margin: 1em auto; }
+  margin: 1em auto;
+  position: relative; }
   #gf .grfxhead {
     width: 620px;
     margin: 0 205px;
@@ -113,6 +125,13 @@
     font-size: 16px;
     letter-spacing: 0.003em;
     line-height: 1.7; }
+  #gf .grfxcontainer {
+    width: 1030px;
+    float: left;
+    position: relative;
+    margin: 0.5em 0;
+    background: #ebebeb;
+    padding: 1em; }
   #gf .source {
     width: 620px;
     margin: 0 205px;
