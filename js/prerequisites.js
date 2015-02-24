@@ -4341,3 +4341,78 @@ var f=this;
 return"function"==typeof this&&(f=J),F(e,f,c),this
 }
 }(window.jQuery||window.Zepto||window.tire,window);
+
+/*!
+  * Bowser - a browser detector
+  * https://github.com/ded/bowser
+  * MIT License | (c) Dustin Diaz 2014
+  */
+!function(b,a){typeof module!="undefined"&&module.exports?module.exports.browser=a():typeof define=="function"?define(a):this[b]=a()
+}("bowser",function(){function a(v){function g(f){var i=v.match(f);
+return i&&i.length>1&&i[1]||""
+}var d=g(/(ipod|iphone|ipad)/i).toLowerCase(),j=/like android/i.test(v),w=!j&&/android/i.test(v),e=g(/version\/(\d+(\.\d+)?)/i),q=/tablet/i.test(v),p=!q&&/[^-]mobi/i.test(v),k;
+/opera|opr/i.test(v)?k={name:"Opera",opera:b,version:e||g(/(?:opera|opr)[\s\/](\d+(\.\d+)?)/i)}:/windows phone/i.test(v)?k={name:"Windows Phone",windowsphone:b,msie:b,version:g(/iemobile\/(\d+(\.\d+)?)/i)}:/msie|trident/i.test(v)?k={name:"Internet Explorer",msie:b,version:g(/(?:msie |rv:)(\d+(\.\d+)?)/i)}:/chrome|crios|crmo/i.test(v)?k={name:"Chrome",chrome:b,version:g(/(?:chrome|crios|crmo)\/(\d+(\.\d+)?)/i)}:d?(k={name:d=="iphone"?"iPhone":d=="ipad"?"iPad":"iPod"},e&&(k.version=e)):/sailfish/i.test(v)?k={name:"Sailfish",sailfish:b,version:g(/sailfish\s?browser\/(\d+(\.\d+)?)/i)}:/seamonkey\//i.test(v)?k={name:"SeaMonkey",seamonkey:b,version:g(/seamonkey\/(\d+(\.\d+)?)/i)}:/firefox|iceweasel/i.test(v)?(k={name:"Firefox",firefox:b,version:g(/(?:firefox|iceweasel)[ \/](\d+(\.\d+)?)/i)},/\((mobile|tablet);[^\)]*rv:[\d\.]+\)/i.test(v)&&(k.firefoxos=b)):/silk/i.test(v)?k={name:"Amazon Silk",silk:b,version:g(/silk\/(\d+(\.\d+)?)/i)}:w?k={name:"Android",version:e}:/phantom/i.test(v)?k={name:"PhantomJS",phantom:b,version:g(/phantomjs\/(\d+(\.\d+)?)/i)}:/blackberry|\bbb\d+/i.test(v)||/rim\stablet/i.test(v)?k={name:"BlackBerry",blackberry:b,version:e||g(/blackberry[\d]+\/(\d+(\.\d+)?)/i)}:/(web|hpw)os/i.test(v)?(k={name:"WebOS",webos:b,version:e||g(/w(?:eb)?osbrowser\/(\d+(\.\d+)?)/i)},/touchpad\//i.test(v)&&(k.touchpad=b)):/bada/i.test(v)?k={name:"Bada",bada:b,version:g(/dolfin\/(\d+(\.\d+)?)/i)}:/tizen/i.test(v)?k={name:"Tizen",tizen:b,version:g(/(?:tizen\s?)?browser\/(\d+(\.\d+)?)/i)||e}:/safari/i.test(v)?k={name:"Safari",safari:b,version:e}:k={},/(apple)?webkit/i.test(v)?(k.name=k.name||"Webkit",k.webkit=b,!k.version&&e&&(k.version=e)):!k.opera&&/gecko\//i.test(v)&&(k.name=k.name||"Gecko",k.gecko=b,k.version=k.version||g(/gecko\/(\d+(\.\d+)?)/i)),w||k.silk?k.android=b:d&&(k[d]=b,k.ios=b);
+var h="";
+d?(h=g(/os (\d+([_\s]\d+)*) like mac os x/i),h=h.replace(/[_\s]/g,".")):w?h=g(/android[ \/-](\d+(\.\d+)*)/i):k.windowsphone?h=g(/windows phone (?:os)?\s?(\d+(\.\d+)*)/i):k.webos?h=g(/(?:web|hpw)os\/(\d+(\.\d+)*)/i):k.blackberry?h=g(/rim\stablet\sos\s(\d+(\.\d+)*)/i):k.bada?h=g(/bada\/(\d+(\.\d+)*)/i):k.tizen&&(h=g(/tizen[\/\s](\d+(\.\d+)*)/i)),h&&(k.osversion=h);
+var m=h.split(".")[0];
+if(q||d=="ipad"||w&&(m==3||m==4&&!p)||k.silk){k.tablet=b
+}else{if(p||d=="iphone"||d=="ipod"||w||k.blackberry||k.webos||k.bada){k.mobile=b
+}}return k.msie&&k.version>=10||k.chrome&&k.version>=20||k.firefox&&k.version>=20||k.safari&&k.version>=6||k.opera&&k.version>=10||k.ios&&k.osversion&&k.osversion.split(".")[0]>=6?k.a=b:k.msie&&k.version<10||k.chrome&&k.version<20||k.firefox&&k.version<20||k.safari&&k.version<6||k.opera&&k.version<10||k.ios&&k.osversion&&k.osversion.split(".")[0]<6?k.c=b:k.x=b,k
+}var b=!0,c=a(typeof navigator!="undefined"?navigator.userAgent:"");
+return c._detect=a,c
+});
+(function(){ngn.feedbackForm={findOS:function(){var a;
+a=navigator.platform;
+if(a.indexOf("Win")!==-1){return"Windows"
+}if(a.indexOf("Mac")!==-1){return"MacOS"
+}if(a.indexOf("Linux")!==-1){return"Linux"
+}if(a.indexOf("X11")!==-1){return"Unix"
+}return"Unknown"
+},removeFeedbackEmailField:function(){$("#feedback-form__email-field").remove()
+},init:function(){var b,c,a;
+a=$(".app-open-feedback-form");
+b=$("#popupmessage--feedback");
+c=$("#feedback-form--loading");
+a.click(function(){b.addClass("active");
+a.hide()
+});
+$("#app-mobile-button-remove, #app-mobile-feed-back-button .app-open-feedback-form").click(function(){return $("#app-mobile-feed-back-button").removeClass("in-view")
+});
+$("#button--done, .popupmessage--click-off-listener, #feedback-button--close").click(function(){b.removeClass("active");
+a.show()
+});
+$("#feedback-comments").focus(function(){$(this).attr("rows",6)
+});
+$("#feedback-form").submit(function(f){var d,e;
+c.toggle();
+e=ngn.helpers.user.email!=null?ngn.helpers.user.email:$("#feedback-email").val();
+d="";
+if(!!e){d+="<strong>Email Address: </strong>: "+e
+}d+="<br /><br /><strong>Rating</strong>: "+$("input[type='radio'][name='rating']:checked").val()+" stars<br />";
+d+="<br /><strong>Feedback</strong>:<br />";
+d+=$("#feedback-comments").val();
+d+="<br /><br /><br />--------------------<br />User Analytics<br />--------------------<br />";
+d+="<br /><strong>Browser</strong>: "+bowser.name+" "+bowser.version;
+d+="<br /><strong>OS</strong>: "+ngn.feedbackForm.findOS();
+d+="<br /><strong>JavaScript Enabled</strong>: true";
+d+="<br /><strong>Screen Resolution</strong>: "+window.screen.availWidth+"x"+window.screen.availHeight;
+d+="<br /><strong>Browser Size</strong>: "+window.innerWidth+"x"+window.innerHeight;
+d+="<br /><strong>User Agent</strong>: "+navigator.userAgent;
+d+="<br /><strong>Retina</strong>: ";
+d+=window.devicePixelRatio>1;
+$.ajax({type:"POST",url:"/bin/services/news/public/feedback",data:"body="+d,success:function(g){c.toggle();
+$(".before-send-feedback").toggleClass("active");
+$(".after-send-feedback--success").toggleClass("active")
+},error:function(g){c.toggle();
+$(".before-send-feedback").toggleClass("active");
+$(".after-send-feedback--fail").toggleClass("active")
+}});
+f.preventDefault()
+})
+},triggerMobileFeedbackButton:function(a){if(a==="now"){return setTimeout((function(){$("#app-mobile-feed-back-button").addClass("in-view")
+}),1500)
+}else{if(a==="on scroll"){return $(document).on("scroll",function(){$("#app-mobile-feed-back-button").addClass("in-view");
+$(document).unbind("scroll")
+})
+}}}}
+}).call(this);
